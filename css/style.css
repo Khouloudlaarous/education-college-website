@@ -490,50 +490,50 @@ footer {
     header {
         height: 52vh;
         margin-bottom: 4rem;
-     }
+    }
     
-     .header__container {
+    .header__container {
         gap:0;
         padding-bottom: 3rem;
-     }
+    }
     
-     .categories {
+    .categories {
         height: auto;
-     }
+    }
     
-     .categories__container {
+    .categories__container {
         grid-template-columns: 1fr;
         gap: 3rem;
-     }
+    }
     
-     .categories__left {
+    .categories__left {
         margin-left: 0;
-     }
+    }
     
-     .courses {
+    .courses {
         margin-top: 0;
-     }
+    }
     
-     .courses__container {
+    .courses__container {
         grid-template-columns: 1fr 1fr;
-     }
+    }
     
-     .faqs__container {
+    .faqs__container {
         grid-template-columns: 1fr;
-     }
+    }
     
-     .faq {
+    .faq {
         padding: 1.5rem;
-     }
+    }
     
-     .footer__container {
+    .footer__container {
         grid-template-columns: 1fr 1fr;
         gap: 8rem;
-     }
- }
+    }
+}
 
 
- @media screen and (max-width: 600px){
+@media screen and (max-width: 600px){
     body {
         width: var(--container-width-sm);
     }
@@ -590,4 +590,4 @@ footer {
 
 
     
- }
+}
