@@ -1,0 +1,50 @@
+.about__acheivements {
+    margin-top: 3rem;
+}
+
+.about__acheivements-container {
+    display:grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+}
+
+.about__acheivements-right > p {
+    margin: 1.6rem 0 2.5rem;
+}
+
+.Acheivements__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.Acheivement__card {
+    background-color: var(--color-bg1);
+    padding: 1.6rem;
+    border-radius: 1rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.Acheivement__card:hover {
+    background-color: var(--color-bg2);
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.Acheivement__icon {
+    background-color: var(--color-danger);
+    padding: 0.6rem;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.Acheivement__card:nth-child(2) .Acheivement__icon {
+    background-color: var(--color-success);
+}
+
+.Acheivement__card:nth-child(3) .Acheivement__icon {
+    background-color: var(--color-primary);
+}
+
